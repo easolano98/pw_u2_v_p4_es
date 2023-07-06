@@ -1,7 +1,7 @@
 <template>
   <h1 v-if="!pokemonCorrecto">Espere por favor...</h1>
   <div v-else>
-    <div v-if="intentos>0 && puntaje<1">
+    
       <h1>Juego Pokemon</h1>
       <label for="">Puntacion: {{ puntaje }} Intentos:{{ intentos }}</label>
       <PokemonImg
@@ -13,7 +13,6 @@
         :opciones="arreglo"
         v-on:seleccionado="revisarSeleccion($event)"
       />
-    </div>
   </div>
 
   <div v-if="puntaje != 0" class="gana">
