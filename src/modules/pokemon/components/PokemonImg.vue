@@ -30,14 +30,14 @@
   };
   </script>
   
-  <style>
+  <style scoped>
   .oculta-pokemon {
     filter: brightness(0);
   }
   img {
     position: absolute;
     height: 200px;
-    right: 44%;
+    right: 40%;
   }
   
   .contenedor_imagen {

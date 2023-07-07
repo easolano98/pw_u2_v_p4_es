@@ -90,7 +90,7 @@ export default {
 };
 </script>
   
-  <style>
+  <style scoped>
 .gana {
   color: blueviolet;
   font-weight: bold;
@@ -100,4 +100,18 @@ export default {
   color: red;
   font-weight: bold;
 }
+
+button{
+  border: none;
+  font-weight: bold;
+  background-color: rgb(212, 85, 11);
+  padding: 3px;
+  font-size: 30px;
+}
+
+button:hover{
+  background-color: rgb(161, 15, 15);
+  color: white;
+}
+
 </style>

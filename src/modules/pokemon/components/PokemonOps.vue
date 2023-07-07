@@ -33,7 +33,7 @@
     };
     </script>
     
-    <style scope>
+    <style scoped>
     ul{
       list-style-type: none;
     }
